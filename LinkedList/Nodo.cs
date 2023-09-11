@@ -10,7 +10,6 @@ namespace LinkedList
     {
         public int Value { get; set; }
         public Node Next { get; set; }
-        public Node First { get; set; }
 
         public Node(int value)
         {
