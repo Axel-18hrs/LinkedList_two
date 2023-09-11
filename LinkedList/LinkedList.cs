@@ -11,7 +11,7 @@ namespace LinkedList
     {
         // Search for unordered and ordered lists
         private Node head;
-        public Node Head { get; set; }
+
         public void AddNode(int value)
         {
             Node newNode = new Node(value);
